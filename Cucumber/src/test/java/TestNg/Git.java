@@ -81,6 +81,7 @@ search.click();
 @Test
 public void moviesTest() {
      WebDriver driver=null; 
+@SuppressWarnings("null")
 WebElement movies=driver.findElement(By.xpath("//*[@class=\"sc-bqjOQT bEsook\"]"));
 movies.click(); 
 }

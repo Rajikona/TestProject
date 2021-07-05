@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.NewTest">
+      <class name="TestNg.Git">
         <methods>
-          <include name="f"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
+          <include name="mobileTest"/>
+          <include name="moviesTest"/>
+          <include name="loginTest"/>
+          <include name="searchTest"/>
+          <include name="continueTest"/>
         </methods>
-      </class> <!-- TestNg.NewTest -->
+      </class> <!-- TestNg.Git -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
